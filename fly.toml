@@ -5,6 +5,7 @@ primary_region = "ams"
   dockerfile = "Dockerfile"
   [build.args]
     VITE_BRAND_NAME = "ELAN Languages"
+    SIMPLE_MODE = "true"
 
 [http_service]
   internal_port = 8080
